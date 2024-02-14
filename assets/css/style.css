@@ -1,0 +1,1101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --black--: black;
+    --white--: #fff;
+    --red--: red;
+}
+
+.fs-7 {
+    font-size: 13px;
+}
+
+.fs-8 {
+    font-size: 12px;
+}
+
+.fs-9 {
+    font-size: 10px;
+}
+
+.fw-200 {
+    font-weight: 200 !important;
+}
+
+.fw-300 {
+    font-weight: 400 !important;
+}
+
+.fw-400 {
+    font-weight: 200 !important;
+}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.fw-600 {
+    font-weight: 700 !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.fw-800 {
+    font-weight: 800 !important;
+}
+
+.nofocus:focus {
+    box-shadow: none;
+    border: 1px solid #3B5998;
+}
+
+.nofocus {
+    box-shadow: none;
+    border: 1px solid #c8c7cc;
+}
+
+.pointer {
+    cursor: pointer;
+    user-select: none;
+}
+
+.blacl-color {
+    color: black;
+}
+
+.blue-color {
+    color: #263B50;
+}
+
+.color-yellow {
+    color: #E9A825;
+    text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.btn-global {
+    padding: 10px 35px;
+    border: none;
+    background-color: #263B50;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.btn-global:hover {
+    /* color: #263B50; */
+    transition: .5s ease-in-out;
+    /* border: 2px solid #E9A825; */
+    background-color: #E9A825;
+    font-weight: 600;
+    transform: translateY(-15%);
+}
+
+.btn-global01 {
+    padding: 10px 15px;
+    border: 2px solid #E9A825;
+    background-color: #E9A825;
+    /* border-radius: 10px; */
+    color: white;
+    font-weight: 600;
+    width: 28%;
+}
+
+.btn-global01:hover {
+    filter: brightness(1.1);
+    /* color: #263B50; */
+    transition: .5s ease-in-out;
+    transform: translateY(-15%);
+}
+
+.btn-global02 {
+    padding: 10px 15px;
+    border: none;
+    background-color: #263B50;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    width: 28%;
+}
+
+.btn-global02:hover {
+    filter: brightness(1.1);
+    /* color: #263B50; */
+    background-color: #E9A825;
+    transition: .5s ease-in-out;
+    transform: translateY(-15%);
+}
+
+
+/* header start */
+.header-logo{
+    width: 70%;
+}
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding: 3px 0px 3px 0px;
+}
+.bg-color {
+    background-image: url(../images/background.middle.jpg);
+    background-size: 100% 100%;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #E9A825;
+    transition: .3s ease-in-out;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    /* background-color: #263B50; */
+    padding: 10px 5px;
+}
+
+.dropdown-item {
+    color: #263B50;
+    font-weight: 600;
+    padding: 12px;
+}
+
+.dropdown-item:hover {
+    background-color: #E9A825;
+    transition: .3s ease-in-out;
+    transform: scale(0.97);
+    /* font-size: 17px; */
+}
+
+.distibutor-div {
+    position: absolute;
+    right: 0%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5018382352941176) 1%, rgba(233, 168, 37, 0.5634628851540616) 52%, rgba(233, 168, 37, 1) 95%);
+    padding: 10px;
+    color: #263B50;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.distibutor-div:hover {
+    background-color: #E9A825;
+    transition: .5s linear;
+    filter: brightness(1.1);
+    padding-right: 25px;
+}
+
+/* header end */
+
+
+.hero-sec {
+    background-color: #E9A825;
+    background-image: url(../images/hero-img3.webp);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+}
+
+.heading-top {
+    text-shadow: -6px 4px 3px rgba(0, 0, 0, 0.53);
+    color: white;
+    font-size: 50px;
+}
+
+.para-top {
+    color: white;
+    font-weight: 600;
+    text-shadow: -6px 4px 3px rgba(0, 0, 0, 0.53);
+}
+
+.middle-sec {
+    background-image: url(../images/background.middle.jpg);
+    height: max-content;
+    background-size: cover;
+    color: white;
+    padding: 40px 0px;
+}
+
+.products-sec {
+    background-image: url(../images/background.middle.jpg);
+    height: max-content;
+    background-size: cover;
+    color: white;
+    padding: 20px 0px;
+}
+
+.products-sec-1 {
+    background-image: url(../images/background.middle.jpg);
+    height: 450px;
+    background-size: cover;
+    color: white;
+    padding: 20px 0px 0px 0px;
+}
+
+.pro-heading {
+    font-size: 55px;
+}
+
+.pro-para {
+    line-height: 2;
+}
+
+.pro-para-2 {
+    line-height: 2;
+}
+.pro-para-3 {
+    line-height: 1.9;
+}
+
+.col-hover:hover {
+    transform: scale(1.05);
+    transition: .3s linear;
+    z-index: 999;
+}
+
+.card:hover {
+    /* box-shadow: 0px 4px 7px -1px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 4px 7px -1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 4px 7px -1px rgba(0,0,0,0.4); */
+    box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    transition: .3s ease-in-out;
+}
+
+.round-div {
+    background-color: #E9A825;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}
+
+.round-div:hover {
+    border: 1px solid;
+    /* box-shadow: inset 0 0 20px rgba(255, 255, 255, .8), 0 0 20px rgba(255, 255, 255, .5); */
+    filter: brightness(1.15);
+    transform: scale(1.1);
+    transition: .4s ease-in-out;
+}
+
+.inner-logo {
+    font-size: 50px;
+}
+
+.footer-sec {
+    background-image: url(../images/background.middle.jpg);
+    background-size: 100% 100%;
+    padding: 0px 0px 20px 0px;
+    border-top: 10px solid #E9A825;
+}
+
+.footer-col {
+    height: 240px;
+    overflow-y: scroll;
+}
+
+.fa-instagram {
+    color: rgb(228, 112, 131);
+}
+
+.tiktok-icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.circle-div {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.circle-div:hover {
+    transform: scale(1.05);
+}
+
+.map-div {
+    height: 250px;
+    width: 270px;
+}
+
+/* .top-iframe {
+    height: 300px;
+    width: 530px;
+} */
+
+.about-sec {
+    background-image: url(../images/background.middle.jpg);
+    height: max-content;
+    background-size: cover;
+    color: white;
+    padding: 20px 0px;
+}
+
+.explore-div {
+    background-color: #263B50;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+.news-img {
+    height: 208px;
+    width: 270px;
+}
+
+.news-1{
+    height: 250px;
+    width: 360px;
+}
+.news-2{
+    height: 180px;
+    width: 360px;
+}
+
+
+.truckbg {
+    background-image: url(../images/background.middle.jpg);
+    height: 250px;
+    width: 360px;
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: 5px;
+}
+
+.truck-img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    border-radius: 5px;
+    padding-top: 25px;
+}
+.motorbike {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.car-oil {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    border-radius: 5px;
+    padding-top: 45px;
+}
+
+.inner-text {
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    line-height: 1.8;
+}
+
+.inner-head {
+    font-size: 20px;
+}
+
+.image-frame {
+    width: 70%;
+}
+
+.margin-div {
+    margin: 10px 10px 0px 10px;
+}
+
+
+/* heavy duty page start */
+.heavy-img {
+    background-image: url(../images/truckatlas.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    align-items: center;
+    display: flex;
+}
+
+.heavy-text {
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: -3px 3px 2px rgba(0, 0, 0, 0.4);
+}
+.heavy-text-1 {
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: -3px 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* heavy duty page end */
+
+
+/* car oil page start */
+.car-img {
+    background-image: url(../images/darken-car.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    align-items: center;
+    display: flex;
+}
+
+/* car oil page end */
+
+
+/* motocycle page start */
+.bike-img {
+    background-image: url(../images/bikeoil.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    align-items: center;
+    display: flex;
+}
+
+/* motocycle page end */
+
+
+/* industry page start */
+.industry-img {
+    background-image: url(../images/industry.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 300px;
+    align-items: center;
+    display: flex;
+}
+
+/* industry page end */
+
+/* atf & gear page start */
+.atf-and-gear-img {
+    background-image: url(../images/atf-&-gear-bg.jpeg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: bottom;
+    height: 300px;
+    align-items: center;
+    display: flex;
+}
+
+/* atf & gear page end */
+
+
+/* login page start */
+.login-img {
+    background-image: url(../images/loginbg.jpg);
+    background-size: 100% 100%;
+    height: max-content;
+    padding: 50px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box-div {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.my-select:focus {
+    box-shadow: none;
+    border: 1px solid #3B5998;
+}
+
+.my-select {
+    border: 1px solid #c8c7cc;
+}
+
+.border-div {
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #c8c7cc;
+}
+
+.border-div:focus {
+    box-shadow: none;
+    border: 1px solid #3B5998;
+}
+
+.input-border {
+    border: none;
+}
+
+.input-border:focus {
+    box-shadow: none;
+}
+
+.my-select-check:focus {
+    box-shadow: none;
+}
+
+/* login page end */
+
+
+/* contact us page start */
+.contact-para {
+    font-size: 16px;
+}
+
+.contact-para-2 {
+    font-size: 11px;
+}
+
+.row-div {
+    background-color: rgb(240, 235, 235);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+/* contact us page end */
+
+
+/* about us page start */
+.card-1 {
+    text-align: center;
+    border-radius: 10px;
+    height: 500px;
+    margin: 7px;
+}
+
+.card-1:hover {
+    box-shadow: 0px 4px 7px -1px rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: 0px 4px 7px -1px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: 0px 4px 7px -1px rgba(255, 255, 255, 0.1);
+    transition: .3s ease-in-out;
+}
+
+.card-image {
+    height: 350px;
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.acc-foucs:focus {
+    box-shadow: none;
+}
+
+.acc-foucs {
+    /* background-color: #263B50; */
+    background: transparent;
+    /* color: white; */
+    border-color: 1px solid white;
+}
+
+.accordion-button::after {
+    background-image: url(../images/angle.svg);
+    /* position: absolute;
+    bottom: 0;
+    left: 50%; */
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/angle.svg);
+    transform: rotate(-180deg);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #E9A825;
+    /* background-color: #263B50; */
+    background: transparent;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-item {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.accordion-flush .accordion-item:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.slick-next:before,
+.slick-prev:before {
+    font-size: 40px;
+    color: #fff;
+    line-height: 0;
+    opacity: 0.3;
+}
+
+.slick-next:focus:before,
+.slick-prev:focus:before {
+    color: #E9A825;
+    opacity: 0.4;
+}
+
+.slick-next:hover:before,
+.slick-prev:hover:before {
+    color: #E9A825;
+    transition: .2s ease-in-out;
+}
+
+/* .slick-next:hover:before{
+    color: #E9A825;
+} */
+/* about us page end */
+
+
+/* career page start */
+.career-img {
+    background-image: url(../images/career2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px 0px;
+}
+
+/* career page end */
+
+
+/* distributor page start */
+.distibutor-img {
+    background-image: url(../images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px 0px 30px 0px;
+}
+
+.shadow-div {
+    box-shadow: -3px 6px 6px -2px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: -3px 6px 6px -2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -3px 6px 6px -2px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.distributor-text {
+    color: white;
+    text-shadow: 0px 3px 3px rgba(0,0,0,0.6);
+}
+
+/* distributor page end */
+
+
+/* download page start */
+.download-img {
+    background-image: url(../images/oil-download.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    height: 45vh;
+    align-items: center;
+    display: flex;
+    opacity: 0.9;
+}
+
+.download-para {
+    text-align: center;
+    color: white;
+    text-shadow: -3px 1px 2px rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+}
+
+/* download page end */
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: 0;
+    background: 0 0;
+}
+
+.slick-dots li button:before {
+    font-family: slick;
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border: 1px solid #E9A825;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #E9A825;
+}
+
+
+
+
+
+.design-para{
+    text-decoration: none;
+}
+.design-para:hover{
+    text-decoration: underline;
+    color: rgb(128, 128, 128);
+}
+
+
+/* heavy b-200 page start */
+.heavy-b200 {
+    background-image: url(../images/heavy-duty-products-header.png);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    align-items: center;
+    display: flex;
+}
+.heavy-text-products {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: -3px 3px 2px rgba(0, 0, 0, 0.4);
+}
+/* heavy b-200 page end */
+
+/* car mark1 page start */
+.car-mark-1 {
+    background-image: url(../images/Products-description.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    align-items: center;
+    display: flex;
+}
+.car-text-products {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: -3px 3px 2px rgba(0, 0, 0, 0.4);
+}
+/* car mark1 page end */
+
+/* industry hydraulic page start */
+.industry-hydraulic {
+    background-image: url(../images/industry-product.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 350px;
+    align-items: center;
+    display: flex;
+}
+/* industry hydraulic page end */
+
+/* other atf-h page start */
+.other-atf-h {
+    background-image: url(../images/atf-up.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    align-items: center;
+    display: flex;
+}
+/* other atf-h page end */
+
+/* other gear-mp page start */
+.other-gear-mp {
+    background-image: url(../images/gear-header-pic-up.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 350px;
+    align-items: center;
+    display: flex;
+}
+/* other gear-mp page end */
+
+/* other grease page start */
+.other-grease {
+    background-image: url(../images/grease-up.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    align-items: center;
+    display: flex;
+}
+/* other grease page end */
+
+/* other brake-fluid page start */
+.other-brake-fluid {
+    background-image: url(../images/brake.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    align-items: center;
+    display: flex;
+}
+/* other brake-fluid page end */
+
+/* other brake-fluid dot-4 page start */
+.other-brake-fluid-dot-4 {
+    background-image: url(../images/dot-4-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    align-items: center;
+    display: flex;
+}
+/* other brake-fluid dot-4 page end */
+
+/* bike-royal page start */
+.bike-royal {
+    background-image: url(../images/bike-specs-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    align-items: center;
+    display: flex;
+}
+/* bike-royal page end */
+
+/* anti freeze page start */
+.anti-freeze {
+    background-image: url(../images/Water+Background.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    align-items: center;
+    display: flex;
+}
+/* anti freeze page end */
+
+.truck-banner{
+    width: 92.5%;
+}
+.bottle-banner{
+    width: 65%;
+}
+.bottle2-banner{
+    width: 60%;
+}
+.bottle3-banner{
+    width: 50%;
+}
+.bike-banner{
+    width: 93.8%;
+}
+/* .bike-banner{
+    width: 94%;
+} */
+.mark-4t-1ltr{
+    width: 38%;
+}
+.my-hover:hover{
+    transform: scale(1.1);
+    transition: .3s linear;
+}
+
+
+.upper-div{
+    position: relative;
+}
+.side-bottle-1{
+    position: absolute;
+    left: 0;
+    top: 5%;
+}
+.side-bottle-1{
+    position: absolute;
+    left: 0;
+    bottom: 30%;
+}
+
+
+@media (max-width:991px) {
+    .btn-global01 {
+        width: 30%;
+    }
+
+    .heavy-text {
+        font-size: 55px;
+    }
+    .heavy-text-1{
+        font-size: 38px;
+    }
+
+    .career-img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .distibutor-img {
+        background-image: none;
+        padding: 0px 0px;
+    }
+
+    .distributor-text {
+        color: black;
+        text-shadow: none;
+    }
+
+    .shadow-div {
+        box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.49);
+        -webkit-box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.49);
+        -moz-box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.49);
+    }
+
+    .career-img {
+        background-image: none;
+        padding: 0px 0px;
+    }
+
+    .card-image {
+        height: 300px;
+    }
+
+    .slick-next:before,
+    .slick-prev:before {
+        font-size: 30px;
+    }
+
+    .hero-sec {
+        background-position: right;
+    }
+    .news-1{
+        height: 100%;
+        width: 100%;
+    }
+    .news-2{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width:568px) {
+    .btn-global01 {
+        width: 60%;
+    }
+
+    .heavy-text {
+        font-size: 47px;
+    }
+    .heavy-text-products{
+        font-size: 47px;
+    }
+    .car-text-products{
+        font-size: 35px;
+    }
+
+    .width-div {
+        width: 650px;
+    }
+
+    .contact-div {
+        overflow-x: scroll;
+    }
+
+    .download-img {
+        background-image: url(../images/oil-download.jpg);
+        background-size: cover;
+        background-position: center;
+        height: max-content;
+        padding: 40px 0px;
+    }
+
+    .truckbg {
+        height: 280px;
+        width: 100%;
+    }
+}
+
+@media (max-width:1024px) {
+    .map-div {
+        height: 180px;
+        width: 180px;
+    }
+
+    /* .top-iframe {
+        height: 250px;
+        width: 450px;
+    } */
+
+    .truckbg {
+        height: 280px;
+        width: 97%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .products-sec-1 {
+        height: 317px;
+    }
+    .download-img {
+        background-image: url(../images/oil-download.jpg);
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        height: 55vh;
+        align-items: center;
+        display: flex;
+    }
+}
+@media (max-width:768px) {
+    .download-img {
+        background-image: url(../images/oil-download.jpg);
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        height: 100vh;
+        align-items: center;
+        display: flex;
+    }
+}
